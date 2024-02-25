@@ -1,0 +1,433 @@
+{
+  "name": "mandrildev",
+  "version": "1",
+  "items": [
+    {
+      "type": "folder",
+      "name": "Habilidad",
+      "items": [
+        {
+          "type": "http",
+          "name": "DELETE Habilidad",
+          "seq": 5,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}/habilidad/{{habilidadId}}",
+            "method": "DELETE",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "1",
+                  "enabled": true,
+                  "local": false
+                },
+                {
+                  "name": "habilidadId",
+                  "value": "1",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "GET Habilidad",
+          "seq": 2,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}/habilidad/{{habilidadId}}",
+            "method": "GET",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "3",
+                  "enabled": true,
+                  "local": false
+                },
+                {
+                  "name": "habilidadId",
+                  "value": "3",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "GET Habilidades",
+          "seq": 1,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}/habilidad",
+            "method": "GET",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "1",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "POST Habilidad",
+          "seq": 3,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}/habilidad",
+            "method": "POST",
+            "headers": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"nombre\": \"Hamacarse\",\n  \"potencia\": 6\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "1",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "PUT Habilidad",
+          "seq": 4,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}/habilidad/{{habilidadId}}",
+            "method": "PUT",
+            "headers": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"nombre\": \"Volar\",\n  \"potencia\": 3\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "3",
+                  "enabled": true,
+                  "local": false
+                },
+                {
+                  "name": "habilidadId",
+                  "value": "3",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Mandril",
+      "items": [
+        {
+          "type": "http",
+          "name": "DELETE Mandril",
+          "seq": 4,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}",
+            "method": "DELETE",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "3",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "GET Mandril",
+          "seq": 2,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}",
+            "method": "GET",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "1",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "GET Mandriles",
+          "seq": 1,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril",
+            "method": "GET",
+            "headers": [],
+            "body": {
+              "mode": "none",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "POST Mandril",
+          "seq": 3,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril",
+            "method": "POST",
+            "headers": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"nombre\": \"Cuarto Mandril\",\n  \"apellido\": \"Tinelli\"\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {},
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        },
+        {
+          "type": "http",
+          "name": "PUT Mandril",
+          "seq": 5,
+          "request": {
+            "url": "http://{{Server}}/{{APIPath}}/mandril/{{mandrilId}}",
+            "method": "PUT",
+            "headers": [],
+            "body": {
+              "mode": "json",
+              "json": "{\n  \"Nombre\": \"Mandriloso\",\n  \"Apellido\": \"Casan\"\n}",
+              "formUrlEncoded": [],
+              "multipartForm": []
+            },
+            "auth": {
+              "mode": "none",
+              "basic": {
+                "username": "",
+                "password": ""
+              },
+              "bearer": {
+                "token": ""
+              }
+            },
+            "script": {},
+            "vars": {
+              "req": [
+                {
+                  "name": "mandrilId",
+                  "value": "4",
+                  "enabled": true,
+                  "local": false
+                }
+              ]
+            },
+            "assertions": [],
+            "tests": "",
+            "query": []
+          }
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "variables": [
+        {
+          "name": "Server",
+          "value": "localhost:5108",
+          "enabled": true,
+          "secret": false,
+          "type": "text"
+        },
+        {
+          "name": "APIPath",
+          "value": "api",
+          "enabled": true,
+          "secret": false,
+          "type": "text"
+        }
+      ],
+      "name": "mandril@dev"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "CBRnScntCtoTneXQCzuaj8+ODDP62jUaLOCa7D6VdSzlSRljOLnajtqohGt6YP5IkmBl5p46RCG6xKTSS3X/Dg==",
+  "success": true,
+  "projectFilePath": "/home/mandril/Documents/Mandrildev/Material/MandrilAPI/MandrilAPI/MandrilAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/mandril/.nuget/packages/microsoft.aspnetcore.openapi/8.0.1/microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
+    "/home/mandril/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/mandril/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/mandril/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/mandril/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/mandril/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/mandril/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
